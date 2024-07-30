@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizza Blankets</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Pizza Blankets</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="home">
+        <h2>Welcome to Pizza Blankets!</h2>
+        <p>Wrap yourself in the warmth and comfort of your favorite pizza. Our pizza blankets are perfect for all pizza lovers!</p>
+        <button>Shop Now</button>
+    </section>
+    <section id="about">
+        <h2>About Us</h2>
+        <p>At Pizza Blankets, we believe in combining comfort with fun. Our blankets are designed to look like delicious pizzas, making them a perfect gift for anyone who loves a slice of the good life.</p>
+    </section>
+    <section id="products">
+        <h2>Our Products</h2>
+        <div class="product">
+            <img src="pizza-blanket.jpg" alt="Pizza Blanket">
+            <h3>Classic Pepperoni Pizza Blanket</h3>
+            <p>Enjoy the classic look of pepperoni pizza with this cozy blanket.</p>
+            <button>Buy Now</button>
+        </div>
+        <!-- Add more products as needed -->
+    </section>
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Have questions? Feel free to reach out to us at <a href="mailto:info@pizzablankets.com">info@pizzablankets.com</a></p>
+    </section>
+    <footer>
+        <p>&copy; 2024 Pizza Blankets. All rights reserved.</p>
+
+
+    </footer>
+</body>
+</html>
+
